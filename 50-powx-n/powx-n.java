@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Solution {
     public   static double myPow(double x, int n) {
-         long N = n;
+         int  N = n;
          boolean negative = false;
 
          if(n<0){
@@ -16,7 +16,7 @@ class Solution {
          }
          return result;
     }
-          public static double power(double x, long n){
+          public static double power(double x, int  n){
             
          
          if(n==0){
