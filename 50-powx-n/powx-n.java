@@ -33,16 +33,5 @@ class Solution {
          
         
     }
-    public static void main(String[] args){
-        double x;
-        int n;
-        Scanner in = new Scanner(System.in);
-         x = in.nextDouble();
-         n = in.nextInt();
-         double result = myPow(x,n);
-         System.out.println("result is:" +result);
-         in.close();
-        
-
-    }
+   
 }
